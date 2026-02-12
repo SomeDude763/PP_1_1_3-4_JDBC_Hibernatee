@@ -13,7 +13,7 @@ import java.util.List;
 public class UserDaoJDBCImpl implements UserDao {
     private static String sql = "" ;
 
-    public UserDaoJDBCImpl() throws SQLException {
+    public UserDaoJDBCImpl() {
     }
 
     public void createUsersTable() {
